@@ -1,0 +1,41 @@
+> readvalues()
+Enter train number as string: '00851'
+  trainNumFilter.station.Code trainNumFilter.Station.Name
+1                         BBS             BHUBANESWAR    
+2                         BAM             BRAHMAPUR      
+3                        VSKP             VISAKHAPATNAM  
+4                         BZA             VIJAYAWADA JN  
+5                          RU             RENIGUNTA JN   
+6                         JTJ             JOLARPETTAI    
+7                         BNC             BANGALORE CANT 
+Enter station code of your interest from above list as string :BBS
+  tempfill.Arrival.time tempfill.Departure.time
+1            '00:00:00'              '22:50:00'
+> readvalues()
+Enter train number as string: '01081'
+  trainNumFilter.station.Code trainNumFilter.Station.Name
+1                          DR             DADAR          
+2                         TNA             THANE          
+3                         KYN             KALYAN JN      
+4                         IGP             IGATPURI       
+5                          NK             NASIK ROAD     
+6                         CSN             CHALISGAON JN  
+7                          JL             JALGAON JN     
+8                         BSL             BHUSAVAL JN    
+Enter station code of your interest from above list as string :TNA
+  tempfill.Arrival.time tempfill.Departure.time
+1            '22:03:00'              '22:05:00'
+> readvalues()
+Enter train number as string: '01427'
+  trainNumFilter.station.Code trainNumFilter.Station.Name
+1                         MRJ             MIRAJ JN       
+2                        ARAG             ARAG           
+3                        SGRE             SULGARE        
+4                         KVK             KAVATHE MAHANKL
+5                        DLGN             DHALGAON       
+6                        JTRD             JATH ROAD      
+7                        SGLA             SANGOLA        
+8                         PVR             PANDHARPUR     
+Enter station code of your interest from above list as string :PVR
+  tempfill.Arrival.time tempfill.Departure.time
+1            '17:25:00'              '00:00:00'

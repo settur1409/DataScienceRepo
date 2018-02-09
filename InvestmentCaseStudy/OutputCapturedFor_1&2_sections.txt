@@ -1,0 +1,47 @@
+Output captured:
+
+> rm(list = ls())
+> rounds2 <- read.csv("rounds2.csv", na.strings=c(""," ","NA"), stringsAsFactors=FALSE)
+> round2 = rounds2;
+> round2_company_permalink = round2$company_permalink
+> round2_company_df <- data.frame(round2_company_list = c(round2_company_permalink))
+> df2 = separate(round2_company_df, round2_company_list, c('link1','link2'), sep = 14)
+> unique_list1 = unique(tolower(df2$link2))
+> length(unique_list1)
+[1] 66368
+> #Reading the data into dataframes
+> companies <- read.delim("companies.txt",header=TRUE, na.strings=c(""," ","NA"), stringsAsFactors=FALSE)
+> company_details = companies
+> company_permalink = company_details$permalink
+> company_df <- data.frame(company_list = c(company_permalink))
+> df3 = separate(company_df, company_list, c('link1','link2'), sep = 14)
+> unique_list2 = unique(tolower(df3$link2))
+> length(unique_list2)
+[1] 66368
+> df2$link3 = paste(tolower(df2$link1), tolower(df2$link2))
+> df3$link3 = paste(tolower(df3$link1), tolower(df3$link2))
+> round2$new_permalink = df2$link3
+> company_details$new_permalink = df3$link3
+> #Merging companies and rounds2 file into a single dataframe, all.x ensures that, no data missed from round2 dataset
+> master_frame <- merge(round2, company_details, by="new_permalink", all.x = TRUE)
+
+> 
+> library(sqldf)
+Loading required package: gsubfn
+Loading required package: proto
+Loading required package: RSQLite
+> sqldf("select funding_round_type, avg(raised_amount_usd) from round2 
++       where funding_round_type in ('venture','angel','seed','private_equity') 
++       group by funding_round_type")
+  funding_round_type avg(raised_amount_usd)
+1              angel               958694.5
+2     private_equity             73308593.0
+3               seed               719818.0
+4            venture             11748949.1
+> sqldf("select funding_round_type, avg(raised_amount_usd) from round2 
++       where funding_round_type in ('venture','angel','seed','private_equity')
++       group by funding_round_type having (avg(raised_amount_usd)>5000000 and avg(raised_amount_usd)<15000000)
++       order by avg(raised_amount_usd) desc limit 1")
+  funding_round_type avg(raised_amount_usd)
+1            venture               11748949
+> 

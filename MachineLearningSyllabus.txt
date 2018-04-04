@@ -1,0 +1,79 @@
+harsha.delighted@gmail.com
+
+Prep-program:
+
+Python for Data Analysis: Get acquainted with Data Structures, Object Oriented Programming, Data Manipulation and Data Visualization in Python
+Introduction to SQL: Learn SQL for querying information from databases
+Math for Data Analysis: Brush up your knowledge of Linear Algebra, Matrices, Eigen Vectors and their application for Data Analysis
+
+Statistical Essentials:
+Inferential Statistics: Learn Probability Distribution Functions, Random Variables, Sampling Methods, Central Limit Theorem and more to draw inferences
+Hypothesis Testing: Understand how to formulate and test hypotheses to solve business problems
+Exploratory Data Analysis: Learn how to summarize data sets and derive initial insights
+
+Machine learning:
+Linear Regression: Learn to implement linear regression and predict continuous data values
+Supervised Learning: Understand and implement algorithms like Naive Bayes and Logistic Regression
+Unsupervised Learning: Learn how to create segments based on similarities using K-Means and Hierarchical clustering
+Support Vector Machines: Learn how to classify data points using support vectors
+Decision Trees: Tree-based model that is simple and easy to use. Learn the fundamentals on how to implement them
+
+natural Language Processing:
+Basics of text processing: Get started with the Natural language toolkit, learn the basics of text processing in python
+Lexical processing: Learn how to extract features from unstructured text and build machine learning models on text data
+Syntax and Semantics: Conduct sentiment analysis, learn to parse English sentences and extract meaning from them
+Other problems in text analytics: Explore the applications of text analytics in new areas and various business domains
+
+Neural networks and deep learning:
+Information flow in a neural network: Understand the components and structure of artificial neural networks
+Training a neural network: Learn the cutting-edge techniques used to train highly complex neural networks
+Convolutional Neural Networks: Use CNN's to solve complex image classification problems
+Recurrent Neural Networks: Study LSTMs and RNN's applications in text analytic
+Creating and deploying networks using Tensorflow and keras: Build and deploy your own deep neural networks on a website, learn to use the Tensorflow API and Keras
+
+Graphical Models:
+Directed and Undirected Models: Learn the basics of directed and undirected graphs
+Inference: Learn how graphical models are used to draw inferences using datasets
+Learning: Learn how to estimate parameters and structure of graphical models
+
+Reinforcement learning:
+Introduction to RL: Understand the basics of RL and its applications in AI
+Markov Decision Processes: Model processes as Markov chains, learn algorithms for solving optimisation problems
+Q-learning: Write Q-learning algorithms to solve complex RL problems
+
+
+Lesson 1: Download and Install Python and SciPy ecosystem.
+Lesson 2: Get Around In Python, NumPy, Matplotlib and Pandas.
+Lesson 3: Load Data From CSV.
+Lesson 4: Understand Data with Descriptive Statistics.
+Lesson 5: Understand Data with Visualization.
+Lesson 6: Prepare For Modeling by Pre-Processing Data.
+Lesson 7: Algorithm Evaluation With Resampling Methods.
+Lesson 8: Algorithm Evaluation Metrics.
+Lesson 9: Spot-Check Algorithms.
+Lesson 10: Model Comparison and Selection.
+Lesson 11: Improve Accuracy with Algorithm Tuning.
+Lesson 12: Improve Accuracy with Ensemble Predictions.
+Lesson 13: Finalize And Save Your Model.
+Lesson 14: Hello World End-to-End Project.
+
+
+https://in.pycon.org/cfp/2017/proposals/inferential-statistics-with-python~bq6yd/
+https://www.analyticsvidhya.com/blog/2017/01/comprehensive-practical-guide-inferential-statistics-data-science/
+https://github.com/rounakbanik/inferential_stats_pycon/blob/master/02-Sampling.ipynb
+https://github.com/rounakbanik/inferential_stats_pycon
+
+5supervised learning techniques- Linear Regression, Logistic Regression, CART, Naïve Bayes, KNN.
+3unsupervised learning techniques- Apriori, K-means, PCA.
+2ensembling techniques- Bagging with Random Forests, Boosting with XGBoost.
+
+http://www.ritchieng.com/machine-learning-evaluate-linear-regression-model/
+
+www.statisticshowto.com/inferential-statistics/
+onlinestatbook.com/2/introduction/inferential.html
+onlinestatbook.com/2/introduction/inferential.html
+https://www.khanacademy.org/math/statistics-probability
+
+
+https://www.kaggle.com/niteshsinghal/sms-spam-detection
+https://www.kaggle.com/ismayc/predictive-analysis/notebook
